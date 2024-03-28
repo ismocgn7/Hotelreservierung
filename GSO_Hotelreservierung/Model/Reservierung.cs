@@ -9,7 +9,7 @@ namespace GSO_Hotelreservierung.Model
     internal class Reservierung
     {
         public int Id { get; set; }
-        public string Zimmer { get; set; } = null!;
+        public int Zimmer { get; set; }
         public int Kunde { get; set; }
         public string chechkInDatum { get; set; } = null!;
         public string checkOutDatum { get; set; } = null!;
